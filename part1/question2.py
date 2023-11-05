@@ -15,6 +15,9 @@
 # it. As always, there is a test suite that checks the result. It is in 
 # `question2_test.py.`
 
+def swapper(Tupla):
+    x, y = Tupla
+    return (y, x)
 swapper = None
 
 def run_swapper(list_of_tuples):
